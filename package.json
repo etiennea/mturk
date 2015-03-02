@@ -18,10 +18,12 @@
     , "winston": "*"
     , "underscore": "*"
     , "sax": "*"
+    , "libxmljs": "*"
   }
   , "engines": { "node": ">=0.4.0"  }
   , "devDependencies": {
-      "nock": "*"
+        "nock": "*"
+      , "expresso": "*"
   }
   , "scripts": {
     "test": "make"
